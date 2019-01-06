@@ -1,0 +1,48 @@
+{
+  "name": "vue-cli-plugin-ckeditor",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "jarvis.wang",
+    "email": "wangjia_1919@163.com"
+  },
+
+  "description": "vue-cli 3 plugin to add iView",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NineSwordsMonster/vue-cli-plugin-ckeditor.git"
+  },
+  "keywords": [
+    "vue",
+    "ckeditor"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NineSwordsMonster/vue-cli-plugin-ckeditor/issues",
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
